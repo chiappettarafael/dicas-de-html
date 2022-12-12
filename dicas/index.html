@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Dicas de HTML</title>
+    </head>
+    <body>
+        <h1>Maneiras de cria um "Hyperlinks" em HTML</h1>
+        <br>
+        <div>
+            <dl>
+                <dt><p> Tag &lt;button&gt; dentro uma tag &lt;form&gt;:</p></dt>
+                <dd>Essa é uma forma de criar um botão que redirecionará o espectador para outra página ou link.</dd>
+            </dl>
+            <section class="code1">
+            <code class="html">
+                &lt;<span class="cor-p">form</span><span class="cor-g"> action</span><span class="cor-p">=</span><span class="cor-y">"pagina2.html"</span><span class="cor-g"> method</span><span class="cor-p">=</span><span class="cor-y">"get"</span>&gt; <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="cor-p">button</span><span class="cor-g"> type</span><span class="cor-p">=</span><span class="cor-y">"submit"</span><span class="cor-g"> id</span><span class="cor-p">=</span><span class="cor-y">"botao1"</span>&gt; Currículo &lt;/<span class="cor-p">button</span>&gt; <br />
+                &lt;<span class="cor-p">/form</span>&gt; <br />
+            </code>
+            </section>
+        </div>
+
+        <br>
+        
+        <div>
+            <dl>
+                <dt><p> Tag &lt;a&gt;: </p></dt>
+                <dd>Essa é a forma mais simples de criar um hyperlink, porém essa forma pode ser limitada e impedir a estilização.</dd>
+            </dl>
+            <section class="code2">
+            <code class="html">
+                &lt;<span class="cor-p">a</span><span class="cor-g"> href</span><span class="cor-p">=</span><span class="cor-y">"linkdosite.com.br"</span>&gt; <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;"palavra clicável" <br />
+                &lt;/<span class="cor-p">a</span>&gt; <br />
+            </code>
+            </section>
+        </div>
+
+        <br>
+
+        <div>
+            <dl>
+                <dt><p> Tag &lt;button&gt;, dento da tag &lt;a&gt;: </p></dt>
+                <dd>Essa é uma das formas de criar um botão, ela não funciona em alguns navegadores, é uma má prática.</dd>
+            </dl>
+            <section class="code3">
+            <code class="html">
+                &lt;<span class="cor-p">a</span><span class="cor-g"> href</span><span class="cor-p">=</span><span class="cor-y">"comary.html"</span>&gt; <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="cor-p">button</span>&gt; Saiba mais &lt;/<span class="cor-p">button</span>&gt; <br />
+                &lt;/<span class="cor-p">a</span>&gt; <br />
+            </code>
+            </section>
+        </div>
+        
+        <br>
+
+    </body>
+</html>
